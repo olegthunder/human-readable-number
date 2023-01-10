@@ -156,6 +156,8 @@ module.exports = function toReadable (number) {
     }
   } else {
     switch (str[0]){
+        case 0: 
+        ReadableNumber = ReadableNumber + 'zero';
         case 1: 
         ReadableNumber = ReadableNumber + 'one';
         break;
